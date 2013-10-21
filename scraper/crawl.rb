@@ -2,7 +2,7 @@ require 'harvestman'
 require 'json'
 
 base_url = "http://empleos.trabajo.gob.pe:8080/empleoperu/Vacante.do?method=listado_vacantes"
-# base_url = "http://localhost:8080/Vacantes.html"
+base_url = "http://localhost:8080/Vacantes.html"
 
 vacantes = []
 begin
