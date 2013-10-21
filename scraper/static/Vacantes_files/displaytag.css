@@ -1,0 +1,72 @@
+thead tr {
+	font-size: 11px;
+	background-color: #c4c4c4;
+}
+
+th.sorted {
+	background-color: #c4c4c4;
+}
+
+th a:hover {
+	text-decoration: underline;
+	color: black;
+}
+
+tr.odd {
+	background-color: #fff;
+	font-size: 12px;
+	text-align: left;
+}
+
+tr.even {
+	background-color: #cddef5;
+	font-size: 12px;
+	text-align: left;
+}
+
+span.export {
+	padding: 0 4px 1px 20px;
+	display: inline;
+	/*display: inline-block;*/
+	cursor: pointer;
+}
+
+/*
+span.excel {
+    background-image: url(../images/mexcel.png);
+}
+
+span.csv {
+    background-image: url(../images/mcsv.png);
+}
+
+span.xml {
+    background-image: url(../images/mxml2.png);
+}
+
+span.pdf {
+    background-image: url(../img/ico_file_pdf.png);
+}
+*/
+span.pagebanner {
+	background-color: #fff;
+	padding: 2px 4px 2px 4px;
+	margin: 2px 1px 0px 1px;
+	display: block;
+	border-bottom: none;
+	text-align: right;
+	font-size: 11px;
+	font-weight: normal;
+}
+
+span.pagelinks {
+	background-color: #fff;
+	padding: 2px 4px 2px 4px;
+	display: block;
+	border-top: none;
+	margin: 1px;
+	margin-top: -1px;
+	text-align: right;
+	font-size: 11px;
+	font-weight: normal;
+}
